@@ -8,28 +8,44 @@ Este projeto é um dashboard interativo desenvolvido com **Streamlit** para aná
 
 ## ▶️ Como executar a aplicação
 
-### 1. Clonar o repositório
+### 1. Baixar o projeto pelo GitHub
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-```
+1. Acesse o repositório no GitHub
+2. Clique no botão verde **"Code"**
+3. Clique em **"Download ZIP"**
+4. Extraia o arquivo no seu computador
 
-### 2. Instalar as dependências
+---
+
+### 2. Acessar a pasta do projeto
+
+Abra a pasta extraída.
+
+---
+
+### 3. Instalar as dependências
 
 Certifique-se de ter o Python 3.8 ou superior instalado.
+
+Abra o terminal dentro da pasta do projeto e execute:
 
 ```bash
 pip install streamlit pandas numpy
 ```
 
-### 3. Executar o projeto
+---
+
+### 4. Executar o projeto
+
+No terminal:
 
 ```bash
 streamlit run app.py
 ```
 
-### 4. Acessar no navegador
+---
+
+### 5. Acessar no navegador
 
 O app abrirá automaticamente em:
 
