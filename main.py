@@ -62,5 +62,5 @@ app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, responder))
 
-print("Bot rodando...")
+print("Bot rodando... \nPesquise e envie uma mensagem para RADquarta no Telegram")
 app.run_polling()
